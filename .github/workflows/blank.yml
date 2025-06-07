@@ -1,0 +1,21 @@
+# 1. Navigate into the unzipped project folder
+cd path/to/ROOTS_Complete_Website
+
+# 2. Initialize Git in this folder
+git init
+
+# 3. Add all files and folders
+git add .
+
+# 4. Commit the files with a message
+git commit -m "Initial commit: Upload full ROOTS website with all sections"
+
+# 5. Create a new repo on GitHub FIRST at https://github.com/new
+#    Name it something like: ROOTS-Project
+
+# 6. Add the remote GitHub repo (replace with your GitHub link)
+git remote add origin https://github.com/YOUR-USERNAME/ROOTS-Project.git
+
+# 7. Push the project to GitHub
+git branch -M main
+git push -u origin main
